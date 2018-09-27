@@ -1,0 +1,28 @@
+cluster:
+  type: kubernetes
+  name: sample
+  description: This is a sample vanilla Kubernetes cluster.
+  network:
+    domain: int.example.com
+    subnet: 10.78.0.0/24
+  edge:
+    type: openwrt
+  nodes:
+    - id: 1
+      mac1: D9:7A:D8:2D:DA:00
+      mac2: ED:7C:3C:7F:BC:AA
+    - id: 2
+      mac1: F0:6A:13:41:75:78
+      mac2: DE:D1:8D:DE:DF:5F
+    - id: 3
+      mac1: B4:0B:9F:7D:CA:31
+      mac2: CA:03:C3:34:E4:F9
+    - id: 4
+      mac1: 69:F7:3B:36:CF:6D
+      mac2: 95:31:5A:67:BD:52
+    - id: 5
+      mac1: 47:91:2A:EC:DB:25
+      mac2: CE:CE:FA:7A:40:82
+    - id: 6
+      mac1: 44:DF:A7:C7:87:85
+      mac2: 78:2B:E8:70:C7:D8
